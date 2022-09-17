@@ -33,19 +33,20 @@
 		<div id="content">
 			<div id="code">
 				<p><span class="comments">/**</span><br />
-				  <span class="space"/><span class="comments">* This is my first project in Github,</span><br />
-				  <span class="space"/><span class="comments">* I write some code to celebrate our anniversary.</span><br />
+				  <span class="space"/><span class="comments">* At this special moment, I'd like to </span><br />
 				  <span class="space"/><span class="comments">*/</span><br />
-				Boy i = <span class="keyword">new</span> Boy(<span class="string">"Zuo Xiaotian"</span>);<br />
-				Girl u = <span class="keyword">new</span> Girl(<span class="string">"Li Eryun"</span>);<br />
-				<span class="comments">// July 13, 2013, I told you I love you. </span><br />
-				i.love(u);<br />
-				<span class="comments">// Luckily, you accepted and became my girlfriend eversince.</span><br />
-				u.accepted();<br />
+				Boy i = <span class="keyword">new</span> Boy(<span class="string">"Tian"</span>);<br />
+				Girl u = <span class="keyword">new</span> Girl(<span class="string">"Shu"</span>);<br />
+				<span class="comments">// Feb. 3rd, we first met. You're so beautiful but I'm too shy to tell you. </span><br />
+				i.meet(u);<br />
+				<span class="comments">// Feb. 13th, we know each other better and I failed in love with you. </span><br />
+				i.failInLoveWith(u);<br />
 				<span class="comments">// Since then, I miss u every day.</span><br />
 				i.miss(u);<br />
-				<span class="comments">// And take care of u and our love.</span><br />
-				i.takeCareOf(u);<br />
+				<span class="comments">// March 8th, you accetped my love and became my girlfriend</span><br />
+				u.accepted();<br />
+				<span class="comments">// Now we have been together for more than half a year and have so much unforgettable experience with each other.</span><br />
+				we.experiencedSoMuch();<br />
 				<span class="comments">// I want you to know how happy I am with you.</span><br />
 				i.liveHappilyWith(u);<br />
                 <span class="comments">// I want to take your hand tightly.</span><br />
@@ -58,13 +59,12 @@
 				<canvas id="garden"></canvas>
 				<div id="words">
 					<div id="messages">
-						Li Eryun, We have been together for
+						Shu, We have been together for
 					  <div id="elapseClock"></div>
 					</div>
 					<div id="loveu">
-                    	Happy anniversary & <br/>
 						Love u forever.
-						<div class="signature">- Zuo Xiaotian</div>
+						<div class="signature">- Tian</div>
 					</div>
 				</div>
 			</div>
@@ -81,8 +81,8 @@
 		var offsetX = $("#loveHeart").width() / 2;
 		var offsetY = $("#loveHeart").height() / 2 - 55;
 		var together = new Date();
-		together.setFullYear(2013, 6, 13);
-		together.setHours(18);
+		together.setFullYear(2022, 3, 8);
+		together.setHours(0);
 		together.setMinutes(0);
 		together.setSeconds(0);
 		together.setMilliseconds(0);
